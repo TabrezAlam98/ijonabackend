@@ -16,7 +16,7 @@ app.use("/data", dataController);
 
 app.listen(process.env.Port, async () => {
   try {
-    await connection;
+     connection;
     console.log("Connected to db");
   } catch (err) {
     console.log("Error connnecting to DB");
