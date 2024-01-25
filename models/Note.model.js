@@ -2,8 +2,8 @@ const mongoose = require("mongoose")
 
 
 const dataSchema = new mongoose.Schema({
-    Name : {type : String, required : true},
-    Address : {type : String, required : true},
+    Name :String,
+    Address :String
     
 })
 
